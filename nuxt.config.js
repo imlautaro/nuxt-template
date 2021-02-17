@@ -5,7 +5,7 @@ export default {
 	server: {
 		host: '0.0.0.0',
 	},
-	buildModules: ['@nuxtjs/pwa'],
+	buildModules: ['@nuxtjs/pwa', '@nuxtjs/tailwindcss'],
 	pwa: {
 		manifest: {
 			name: 'Nuxt app',
