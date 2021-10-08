@@ -6,8 +6,15 @@ const config: NuxtConfig = {
 		'@nuxtjs/composition-api/module',
 		'nuxt-windicss',
 		'unplugin-icons/nuxt',
+		'@nuxtjs/google-fonts',
 	],
 	components: true,
+	googleFonts: {
+		display: 'swap',
+		families: {
+			Inter: [400, 600, 700],
+		},
+	},
 	srcDir: 'src',
 	target: 'static',
 }
