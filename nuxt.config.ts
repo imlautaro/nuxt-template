@@ -7,12 +7,20 @@ const config: NuxtConfig = {
 		'nuxt-windicss',
 		'unplugin-icons/nuxt',
 		'@nuxtjs/google-fonts',
+		'@nuxtjs/pwa',
 	],
 	components: true,
 	googleFonts: {
 		display: 'swap',
 		families: {
 			Inter: [400, 600, 700],
+		},
+	},
+	pwa: {
+		manifest: {
+			name: 'Nuxt App',
+			short_name: 'Nuxt App',
+			lang: 'en',
 		},
 	},
 	router: {
