@@ -15,6 +15,9 @@ const config: NuxtConfig = {
 			Inter: [400, 600, 700],
 		},
 	},
+	router: {
+		trailingSlash: true,
+	},
 	srcDir: 'src',
 	target: 'static',
 }
